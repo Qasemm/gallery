@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <img src="1.jpeg" alt="" onclick="overlay1()">
+            <img src="2.jpeg" alt="" onclick="overlay1()"> 
+            <img src="3.jpeg" alt="" onclick="overlay1()">
+            <img src="4.jpeg" alt="" onclick="overlay1()">
+            <img src="5.jpeg" alt="" onclick="overlay1()">
+            <img src="6.jpeg" alt="" onclick="overlay1()">
+        </div>
+
+        <div class="overlay" id="overlay2">
+            <div class="fofo">
+                <h5 class="HH5" onclick="closeOverlay()">&#215;</h5>
+                <img class="img" src="1.jpeg" alt=""><span class="header">Image1</span>
+                <img class="img" src="2.jpeg" alt="">
+                <img class="img" src="3.jpeg" alt="">
+                <img class="img" src="4.jpeg" alt="">
+                <img class="img" src="5.jpeg" alt="">
+                <img class="img" src="6.jpeg" alt="">
+
+                <div class="overlayNext" onclick="slider(1)">
+                        <span>&#8594;</span>
+                    </div>
+    
+                    <div class="overlayBack" onclick="slider(-1)">
+                        <span>&#8592;</span>
+                    </div>
+
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

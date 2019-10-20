@@ -1,0 +1,207 @@
+/* body{
+    background-color:#939393;
+} */
+section {
+    background-color: #9b9b9b;
+    width: 100%;
+    height: 505px;
+}
+
+.container {
+    /* border: 1px solid white; */
+    margin: auto;
+    width: 680px;
+    padding-left: 10px;
+}
+
+.container>img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+    margin-top: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    border: 1px solid;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+
+.fofo {
+    width: 600px;
+    height: 540px;
+    margin: 25px auto;
+    /* border:2px solid white; */
+    position: relative;
+    display: flex;
+}
+
+.fofo>img {
+    width: 100%;
+    height: 100%;
+}
+
+.fofo>span {
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    left: -1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 601px;
+    text-align: center;
+    line-height: 2;
+}
+
+.overlayNext {
+    width: 50%;
+    height: 540px;
+    cursor: pointer;
+    float: right;
+    color: #a3a3a3;
+    /* background: blanchedalmond; */
+    position: absolute;
+    top: 2px;
+    right: 0%;
+}
+
+.overlayNext span {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+}
+
+.overlayBack {
+    width: 50%;
+    height: 540px;
+    cursor: pointer;
+    float: left;
+    color: #a3a3a3;
+    /* background: rgb(197, 125, 18); */
+    position: absolute;
+    top: 0;
+    left;
+    : 0%;
+}
+
+.overlayBack span {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    cursor: pointer;
+
+}
+
+.overlayNext:hover,
+.overlayBack:hover , .HH5:hover{
+    color: #fff;
+}
+
+.fofo h5 {
+    color: #a3a3a3;
+    position: absolute;
+    right: 10px;
+    top: -70px;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------reponsive--------------*/
+
+/* @media only screen and (max-width:800px) {
+    img {
+        width: 200px;
+        height: 200px;
+        border: 4px solid #fff;
+        margin-top: 18px;
+        margin-left: 15px;
+    }
+
+    .container {
+        width: 69%;
+        height: 100vh;
+
+    }
+
+    .spanNext {
+        position: absolute;
+        top: -22%;
+        color: rgb(201, 52, 52);
+        font-size: 80px;
+        left: 44.5%;
+        cursor: pointer;
+
+    }
+
+    .spanBack {
+        position: absolute;
+        top: -22%;
+        color: rgb(201, 52, 52);
+        font-size: 80px;
+        left: 27%;
+        cursor: pointer;
+    }
+
+    .overlay>h5 {
+        position: absolute;
+        left: 49.5%;
+        color: #ee5858;
+        font-size: 27px;
+        /* font-weight: 20px; */
+top: -22px;
+cursor: pointer;
+}
+
+.overlay>img {
+    max-width: 611px;
+    height: 200px;
+    margin-left: 27.5%;
+    margin-top: 16px;
+}
+
+
+}
+
+*/
